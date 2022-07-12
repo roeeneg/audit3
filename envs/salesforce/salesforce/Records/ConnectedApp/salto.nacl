@@ -1,0 +1,17 @@
+salesforce.ConnectedApp salto {
+  fullName = "salto"
+  contactEmail = "roee.negri@salto.io"
+  label = "salto"
+  oauthConfig = {
+    callbackUrl = "http://localhost:PORT"
+    consumerKey = "3MVG9DREgiBqN9WlrG5btXFBEOb1JA1UFEts1AMzXofpD64mztA9KBymVb4iUaqC.8.I4aXhRnNE2Mynisqmb"
+    isAdminApproved = false
+    isConsumerSecretOptional = false
+    isIntrospectAllTokens = false
+    scopes = "Full"
+  }
+  oauthPolicy = {
+    ipRelaxation = "ENFORCE"
+    refreshTokenPolicy = "infinite"
+  }
+}

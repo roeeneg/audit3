@@ -1,0 +1,13 @@
+type salesforce.AppointmentInvitee {
+  salesforce.MasterDetail AppointmentInvitationId {
+    apiName = "AppointmentInvitee.AppointmentInvitationId"
+    _hidden_value = true
+  }
+  string IsRequiredResource {
+    _hidden_value = true
+  }
+  salesforce.Lookup ParticipantServiceResourceId {
+    apiName = "AppointmentInvitee.ParticipantServiceResourceId"
+    _hidden_value = true
+  }
+}

@@ -1,0 +1,38 @@
+type salesforce.AppointmentInvitation {
+  salesforce.Lookup AppointmentTopicId {
+    apiName = "AppointmentInvitation.AppointmentTopicId"
+    trackHistory = false
+    _hidden_value = true
+  }
+  string AppointmentTopicType {
+    _hidden_value = true
+  }
+  string BookingEndDate {
+    _hidden_value = true
+  }
+  string BookingStartDate {
+    _hidden_value = true
+  }
+  string InvitationIdentifier {
+    _hidden_value = true
+  }
+  string InvitationUrl {
+    _hidden_value = true
+  }
+  string IsActive {
+    _hidden_value = true
+  }
+  salesforce.Lookup OwnerId {
+    apiName = "AppointmentInvitation.OwnerId"
+    trackHistory = false
+    _hidden_value = true
+  }
+  salesforce.Lookup ServiceTerritoryId {
+    apiName = "AppointmentInvitation.ServiceTerritoryId"
+    trackHistory = false
+    _hidden_value = true
+  }
+  string UrlExpiryDate {
+    _hidden_value = true
+  }
+}
