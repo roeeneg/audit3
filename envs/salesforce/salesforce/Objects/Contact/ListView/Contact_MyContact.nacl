@@ -1,4 +1,4 @@
-salesforce.ListView Contact_MyContacts {
+salesforce.ListView Contact_MyContact {
   fullName = "Contact.MyContact"
   filterScope = "Mine"
   label = "My Contacts"
