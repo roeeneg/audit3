@@ -40,9 +40,6 @@ salesforce {
           metadataType = "SiteDotCom"
         },
         {
-          metadataType = "EmailTemplate"
-        },
-        {
           metadataType = "ContentAsset"
         },
         {
