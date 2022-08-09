@@ -19,6 +19,7 @@ type salesforce.StaticResource {
       values = [
         "Private",
         "Public",
+        "Very private"
       ]
     }
   }
